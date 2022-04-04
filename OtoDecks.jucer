@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="sQfdmN" name="OtoDecks" projectType="guiapp" displaySplashScreen="1"
+              jucerFormatVersion="1" defines="JUCE_MODAL_LOOPS_PERMITTED=1">
+  <MAINGROUP id="mcJZqF" name="OtoDecks">
+    <GROUP id="{356C603F-01E1-55B2-02A0-F2D89D9A59E6}" name="Source">
+      <GROUP id="{C2A6D5AA-7366-7C21-7FCC-88D4D4083307}" name="icons">
+        <FILE id="LEKYbW" name="again.png" compile="0" resource="1" file="Source/icons/again.png"/>
+        <FILE id="Y8dayh" name="fwd.png" compile="0" resource="1" file="Source/icons/fwd.png"/>
+        <FILE id="jeoE4E" name="loop.png" compile="0" resource="1" file="Source/icons/loop.png"/>
+        <FILE id="EdyX89" name="next.png" compile="0" resource="1" file="Source/icons/next.png"/>
+        <FILE id="IZOL83" name="pause.png" compile="0" resource="1" file="Source/icons/pause.png"/>
+        <FILE id="Nj7Rxt" name="play.png" compile="0" resource="1" file="Source/icons/play.png"/>
+        <FILE id="E3FtF5" name="prev.png" compile="0" resource="1" file="Source/icons/prev.png"/>
+        <FILE id="B3KTsM" name="turntable2.png" compile="0" resource="1" file="Source/icons/turntable2.png"/>
+      </GROUP>
+      <GROUP id="{9112DF58-14E6-A379-7852-133B58E0EB12}" name="tracks">
+        <FILE id="gERXUy" name="01-180813_1305.mp3" compile="0" resource="1"
+              file="Source/tracks/01-180813_1305.mp3"/>
+        <FILE id="ziQd36" name="aon_inspired.mp3" compile="0" resource="1"
+              file="Source/tracks/aon_inspired.mp3"/>
+        <FILE id="qycNtj" name="bad_frog.mp3" compile="0" resource="1" file="Source/tracks/bad_frog.mp3"/>
+        <FILE id="aunZ1A" name="bleep_2.mp3" compile="0" resource="1" file="Source/tracks/bleep_2.mp3"/>
+        <FILE id="eUuL89" name="bleep_10.mp3" compile="0" resource="1" file="Source/tracks/bleep_10.mp3"/>
+        <FILE id="a4H86X" name="c_major_theme.mp3" compile="0" resource="1"
+              file="Source/tracks/c_major_theme.mp3"/>
+        <FILE id="mABRzN" name="electro_smash.mp3" compile="0" resource="1"
+              file="Source/tracks/electro_smash.mp3"/>
+        <FILE id="eRBbGf" name="fast_melody_regular_drums.mp3" compile="0"
+              resource="1" file="Source/tracks/fast_melody_regular_drums.mp3"/>
+        <FILE id="pPUzVT" name="fast_melody_thing.mp3" compile="0" resource="1"
+              file="Source/tracks/fast_melody_thing.mp3"/>
+        <FILE id="K5Nelk" name="hard.mp3" compile="0" resource="1" file="Source/tracks/hard.mp3"/>
+        <FILE id="wkWsLN" name="ms20_improvisation.mp3" compile="0" resource="1"
+              file="Source/tracks/ms20_improvisation.mp3"/>
+        <FILE id="UgTRKQ" name="selection1.mp3" compile="0" resource="1" file="Source/tracks/selection1.mp3"/>
+        <FILE id="aepIs2" name="soft.mp3" compile="0" resource="1" file="Source/tracks/soft.mp3"/>
+        <FILE id="NTxeLM" name="stomper_reggae_bit.mp3" compile="0" resource="1"
+              file="Source/tracks/stomper_reggae_bit.mp3"/>
+        <FILE id="qhuBWr" name="stomper1.mp3" compile="0" resource="1" file="Source/tracks/stomper1.mp3"/>
+        <FILE id="h5JCiH" name="twindrive.mp3" compile="0" resource="1" file="Source/tracks/twindrive.mp3"/>
+      </GROUP>
+      <FILE id="MZMhdF" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="P8saE2" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="l4DjcM" name="TurnTableComponent.h" compile="0" resource="0"
+            file="Source/TurnTableComponent.h"/>
+      <FILE id="fTVQ40" name="TurnTableComponent.cpp" compile="1" resource="0"
+            file="Source/TurnTableComponent.cpp"/>
+      <FILE id="mY8mBE" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="pXoLBs" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="TIQiuh" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="aVDLxo" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="akSYBE" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="nBjnc1" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="tLJ9Sw" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="OJ0Xrs" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="CoVVKI" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce-5.4.3-linux/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce-5.4.3-linux/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl" path="../../juce"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce"/>
+        <MODULEPATH id="juce_graphics" path="../../juce"/>
+        <MODULEPATH id="juce_events" path="../../juce"/>
+        <MODULEPATH id="juce_dsp" path="../../juce"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce"/>
+        <MODULEPATH id="juce_cryptography" path="../../juce"/>
+        <MODULEPATH id="juce_core" path="../../juce"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce"/>
+        <MODULEPATH id="juce_audio_basics" path="../../juce"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <LINUX buildEnabled="1"/>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_USE_MP3AUDIOFORMAT="1"/>
+</JUCERPROJECT>
